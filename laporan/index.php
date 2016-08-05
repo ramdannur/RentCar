@@ -1,0 +1,1 @@
+<script>document.location.href='lihatRiwayat.php'</script>

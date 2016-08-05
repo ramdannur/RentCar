@@ -1,0 +1,124 @@
+body{
+ padding: 0;
+ margin: 0;
+ font-family: 'Segoe UI';
+ font-size: 13px;
+ background: #F7F7F7;
+}
+
+.kotak-tengah{
+ margin-top: 7%;
+}
+.kotak-login{
+ width: 96%;
+ padding: 2%;
+ height: auto;
+ background: #09f;
+ color: #FFF;
+ box-shadow: 0px 0px 0px 3px #DDD;
+}
+.kotak-utama{
+ width: 92%;
+ margin: auto; 
+ margin-top: 30px;
+ padding: 2%;
+ background: #FFF;
+ box-shadow:0px 0px 1px 1px #EEE;
+}
+.kotak-laporan{
+ width: 640px;
+ margin: auto; 
+ padding: 3%;
+ border: 1px solid #DDD;
+ font-size:11px;
+ line-height: 1.2em;
+ background: #FFF;
+}
+.table > thead > tr{
+ background: orange;
+ color: #FFF;
+  border-bottom: 1px solid #BBB;
+}
+
+.table > tbody > tr > td{
+ text-align: center;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-top: 2px;
+ padding-bottom: 2px;
+}
+
+.table > tbody > tr:hover{
+background: #eee;
+}
+.table > tbody > tr > td > a{
+background: #eee;
+ padding: 1px;
+ border: 1px solid #DDD;
+ transition: all ease 0.3s;
+}
+
+.table > tbody > tr > td > a:hover{
+background: #FFF;
+ padding: 1px;
+}
+#readonly {
+ background: #DDD;
+ border: 0px;
+}
+.align-right{
+ text-align: right!important;
+}
+
+.align-center{
+ text-align: center!important;
+}
+
+.align-left{
+ text-align: left!important;
+}
+.c-blue{
+ color: #09f;
+}
+table{
+ border-collapse: collapse;
+}
+.img-table{
+ width: 65px;
+ height: 65px;
+ border-radius: 50%;
+}
+.user-dasbor{
+ width: 125px;
+ height: 125px;
+ border-radius: 50%;
+ padding: 3%;
+}
+a{
+ text-decoration: none;
+ color: #09f;
+ cursor: pointer;
+}
+a:hover{
+ color: blue;
+}
+.navbar1{
+ width: 96%;
+ height: auto;
+ background: #FFF;
+ padding: 1%;
+ padding-left: 40px;
+ box-shadow: 0px 0px 0px 2px #E7E7E7;
+}
+form > input,form > select, form > select, form > textarea{
+ padding: 3px;
+ padding-left: 7px;
+ padding-right: 5px;
+}
+.copyright{
+ font-size: 11px;
+}
+
+.c-red{
+ color: #d92a2a
+}
